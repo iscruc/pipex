@@ -6,7 +6,7 @@
 #    By: icruces- <ismaelcruc@gmail.com>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/01 23:00:16 by icruces-          #+#    #+#              #
-#    Updated: 2024/08/10 14:04:00 by icruces-         ###   ########.fr        #
+#    Updated: 2024/08/10 18:41:27 by icruces-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ LDLIBS	:= -L$(LIBS) -lft
 COMPLIBS = -I$(INC) -I$(LIBS)/inc
 
 #Source Files
-SRC_FILES	=  utils.c
+SRC_FILES	=  utils.c fork.c
 
 OBJ = $(addprefix $(OBJ_DIR), $(SRC_FILES:.c=.o))
 

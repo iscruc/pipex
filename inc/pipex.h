@@ -6,7 +6,7 @@
 /*   By: icruces- <ismaelcruc@gmail.com>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/03 13:23:27 by icruces-          #+#    #+#             */
-/*   Updated: 2024/08/10 17:45:02 by icruces-         ###   ########.fr       */
+/*   Updated: 2024/08/10 18:42:27 by icruces-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@
 //int		open_file(const char *filename, int flags);
 int main(int argc, char **argv, char **envp);
 void	exit_error(char *error);
-int create_fork(char *cmd, char **envp, int input_fd, int output_fd);
+void create_fork(char *cmd, char **envp, int input_fd, int output_fd);
 
 #endif
